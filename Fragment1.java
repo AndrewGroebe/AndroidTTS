@@ -18,7 +18,7 @@ public final class Fragment1 extends Fragment {
         if (container == null) {
             return null;
         }
-
         return inflater.inflate(R.layout.fragment1_layout, container, false);
     }
+    
 }
