@@ -12,7 +12,7 @@ import android.view.ViewGroup;
  *
  * @author Andrew Groebe.
  */
-public class Fragment2 extends Fragment {
+public final class Fragment2 extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstance) {
         if (container == null) {
