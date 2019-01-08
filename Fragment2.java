@@ -18,7 +18,6 @@ public final class Fragment2 extends Fragment {
         if (container == null) {
             return null;
         }
-
         return inflater.inflate(R.layout.fragment2_layout, container, false);
     }
     
